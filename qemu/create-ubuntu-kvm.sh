@@ -26,7 +26,7 @@ EOF
 	cloud-localds user-data.img user-data
 	rm user-data
 
-	echo "Config created! Now you can start the VM with run-vm.sh, and ssh into it with ubuntu:ubuntu.
+	echo "Config created! Now you can start the VM with run-vm.sh, and ssh into it with ubuntu:ubuntu."
 fi
 
 # To allow ssh into the root:
