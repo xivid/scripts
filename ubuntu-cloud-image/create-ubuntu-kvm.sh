@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo apt update
+sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils cloud-image-utils virt-manager
+
 if [ ! -f ubuntu.img ]; then
 	echo "Download ubuntu cloud image..."
 	echo "==============================="
